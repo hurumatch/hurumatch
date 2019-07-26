@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back2"
+    tools:context="jp.ac.ncc.system.se1007.hurumatch.mainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/qr"
+        android:layout_width="270dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_state"
+        android:onClick="onqrTapped"
+        android:text="QRコード\n読み取り"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/shop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/shop"
+        android:layout_width="270dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_state"
+        android:onClick="onshopTapped"
+        android:text="景品交換所"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qr" />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="270dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_state"
+        android:onClick="onmapTapped"
+        android:text="観光MAP"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shop" />
+
+    <Button
+        android:id="@+id/pp"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginStart="17dp"
+        android:background="@drawable/button_state"
+        android:onClick="onppTapped"
+        android:text="ポイント確認"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Signout"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="70dp" />
+
+    <Button
+        android:id="@+id/Signout"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginStart="70dp"
+        android:background="@drawable/button_state"
+        android:onClick="onSignoutTapped"
+        android:text="サインアウト"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pp"
+        android:layout_marginRight="17dp"
+        android:layout_marginLeft="70dp" />
+
+    <Button
+        android:id="@+id/syokika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ontestTapped"
+        android:text="初期化"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="6dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

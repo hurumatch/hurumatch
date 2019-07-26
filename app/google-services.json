@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "704929092962",
+    "firebase_url": "https://hurumatch.firebaseio.com",
+    "project_id": "hurumatch",
+    "storage_bucket": "hurumatch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704929092962:android:e263ebee3947aeb4",
+        "android_client_info": {
+          "package_name": "jp.ac.ncc.system.se1007.hurumatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704929092962-9e8p0avfjedoepskkdrss2a3uo1cr8jc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jp.ac.ncc.system.se1007.hurumatch",
+            "certificate_hash": "91ed520e559e7b9f5c6e044df22627362ef32910"
+          }
+        },
+        {
+          "client_id": "704929092962-79pajhqd71h82dpvsi8s5kknvi7teroe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeNl8BzZnc6pQWEj8rHZQzvwjwgSZ-n6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704929092962-79pajhqd71h82dpvsi8s5kknvi7teroe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
